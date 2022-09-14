@@ -1,1 +1,37 @@
 @import "~bootstrap/scss/bootstrap";
+
+/* COLOR SCHEMES */
+$--color-primary: linear-gradient(45deg, #ee9ca7 0%, #ffdde1 100%);
+$--color-secondary: #900048;
+$--color-drk: #1a2639;
+$--color-light: #eeeeee;
+
+/* FONT-SIZES */
+$--size-h1: 96px;
+$--size-h2: 40px;
+$--size-h3: 28px;
+$--size-p1: 22px;
+$--size-p2: 18px;
+$--size-p3: 12px;
+
+/* FONT-WEIGHTS */
+$--bold: 600;
+$--bolder: 900;
+
+/* GLOBAL STYLES */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'open sans';
+}
+
+/* NAVIGATION BAR */
+.navbar {
+    background: $--color-primary;
+}
+
+.nav {
+    font-size: $--size-p2;
+}
