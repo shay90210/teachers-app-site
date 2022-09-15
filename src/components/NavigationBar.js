@@ -1,7 +1,7 @@
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
-const Header = () => {
+const NavigationBar = () => {
   return (
     <Navbar sticky='top' className='navbar justify-content-center'>
         <Nav className='mt-5 mb-5 nav' activeKey='/home' variant='pills'>
@@ -22,4 +22,4 @@ const Header = () => {
     );
 };
 
-export default Header; 
+export default NavigationBar; 
