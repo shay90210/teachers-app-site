@@ -13,6 +13,10 @@
     "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.1",
     "sass": "^1.54.9",
+    "typeface-cabin": "^1.1.13",
+    "typeface-crafty-girls": "^1.1.13",
+    "typeface-indie-flower": "^1.1.13",
+    "typeface-open-sans": "^1.1.13",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

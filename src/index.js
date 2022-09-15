@@ -3,6 +3,10 @@ import { BrowserRouter } from 'react-router-dom';
 import ReactDOM from 'react-dom/client';
 import './App.scss';
 import App from './App';
+import 'typeface-cabin';
+import 'typeface-open-sans';
+import 'typeface-crafty-girls';
+import 'typeface-indie-flower';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
