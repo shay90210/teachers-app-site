@@ -1,17 +1,12 @@
 import { Container, Col, Row } from "react-bootstrap";
-import TeacherLogo from '../img/brandLogo2.png';
 
 const Header = () => {
     return (
         <Container>
             <Col>
                 <Row>
-                    <h1>THE TEACHERS' CLUB</h1>
-                </Row>
-            </Col>
-            <Col>
-                <Row>
-                    <img src={TeacherLogo} alt='teacher brand logo' />
+                    <h1 className='mt-5'>THE TEACHERS' CLUB</h1>
+                    <h2>Teacher swag where you can speak your thoughts out loud!</h2>
                 </Row>
             </Col>
         </Container>
