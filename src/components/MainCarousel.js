@@ -13,8 +13,8 @@ const MainCarousel = () => {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>"My teacher hoodie is comfortable and my third graders liked pointing at the symbols!"</h3>
+          <p>Jamie D., Wisconsin</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -25,8 +25,8 @@ const MainCarousel = () => {
         />
 
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3>"I have bought two hoodies and a shirt from this store. Everything is comfortable and perfect for teachers on-the-go."</h3>
+          <p>Danielle P., New York</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -37,10 +37,8 @@ const MainCarousel = () => {
         />
 
         <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+          <h3>"I really am a bomb educator with a bomb curl pattern."</h3>
+          <p>Tiffany R., Wisconsin</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
