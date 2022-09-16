@@ -1,7 +1,7 @@
 @import "~bootstrap/scss/bootstrap";
 
 /* COLOR SCHEMES */
-$--color-primary: linear-gradient(45deg, #ee9ca7 0%, #ffdde1 100%);
+$--color-primary: radial-gradient(circle at 10% 20%, rgb(186, 190, 245) 0%, rgb(192, 192, 245) 33.1%, rgb(218, 203, 246) 90%);
 $--color-secondary: #900048;
 $--color-drk: #1a2639;
 $--color-light: #eeeeee;
@@ -42,7 +42,7 @@ h1 {
     font-family: 'indie flower';
     font-size: $--size-h1;
     font-weight: $--bolder;
-    color: $--color-secondary;
+    color: $--color-drk;
 }
 
 h2 {

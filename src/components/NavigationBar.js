@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 const NavigationBar = () => {
   return (
     <Navbar sticky='top' className='navbar justify-content-center'>
-        <Nav className='mt-5 mb-5 nav' activeKey='/home'>
+        <Nav className='mt-3 mb-3 nav' activeKey='/home'>
             <Nav.Item>
                 <Nav.Link href='/home'>Home</Nav.Link>
             </Nav.Item>
