@@ -68,16 +68,19 @@ h2 {
     }
     p, h3 {
         color: $--color-drk;
-        font-family: 'open-sans';
     }
     h3 {
         margin-bottom: 150px;
-        font-weight: $--bolder;
-        font-size: $--size-h3;
+        font-size: $--size-h2;
 
     }
     p {
         font-weight: $--bold;
         font-size: $--size-p2;
     }
+}
+
+/* FOOTER */
+.footer-nav {
+    background-color: $--color-primary;
 }
