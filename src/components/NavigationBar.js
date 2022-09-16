@@ -14,7 +14,7 @@ const NavigationBar = () => {
                 height='100'
             />
         </Navbar.Brand>
-        <Nav className='mt-5 mb-5 nav' activeKey='/home' variant='pills'>
+        <Nav className='mt-5 mb-5 nav' activeKey='/home'>
             <Nav.Item>
                 <Nav.Link href='/home'>Home</Nav.Link>
             </Nav.Item>

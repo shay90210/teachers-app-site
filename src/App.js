@@ -1,5 +1,6 @@
 import NavigationBar from './components/NavigationBar';
 import Header from './components/Header';
+import MainCarousel from './components/MainCarousel';
 import './App.scss';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <NavigationBar />
       <Header />
+      <MainCarousel />
     </div>
   );
 }
