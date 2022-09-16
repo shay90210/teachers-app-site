@@ -1,4 +1,5 @@
 import React from 'react';
+import 'bootstrap-social/bootstrap-social.css';
 import { BrowserRouter } from 'react-router-dom';
 import ReactDOM from 'react-dom/client';
 import './App.scss';
