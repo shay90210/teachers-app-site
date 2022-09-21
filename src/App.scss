@@ -72,7 +72,15 @@ $--bolder: 900;
 
 // FOOTER -------------------------------------------------- 
 .site-footer {
-    background-color: $--color-primary;
+    background-color: $--color-drk;
+    color: $--color-light;
+    a {
+        color: $--color-light;
+        text-decoration: none;
+    }
+    a:hover {
+        color: orange;
+    }
 }
 
 // MEDIA QUERIES 

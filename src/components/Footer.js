@@ -1,5 +1,8 @@
 import { Container, Row, Col } from 'reactstrap';
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
     return (
@@ -26,17 +29,17 @@ const Footer = () => {
                         <Col xs='6' sm='3' className='text-center'>
                             <h5>Social</h5>
                             <a
-                                className='btn btn-social-icon btn-instagram'
+                                className='btn btn-social-icon'
                                 href='https://www.instagram.com/teachersclubaccess/'
                             >
-                                <i className='fa fa-instagram' />
-                            </a>{' '}
+                                <FontAwesomeIcon icon={faInstagram} />
+                            </a>
                             <a
-                                className='btn btn-social-icon btn-facebook'
+                                className='btn btn-social-icon'
                                 href='https://www.facebook.com/teachersclubaccess/'
                             >
-                                <i className='fa fa-facebook' />
-                            </a>{' '}
+                                <FontAwesomeIcon icon={faFacebook} />
+                            </a>
                         </Col>
                     </Row>
                 </Container>               
