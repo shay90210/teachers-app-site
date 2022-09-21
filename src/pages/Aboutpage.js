@@ -42,8 +42,8 @@ const AboutPage = () => {
                     <Col>
                         <img 
                             src={TeacherFounder}
-                            width=''
-                            alt=''
+                            width='200px'
+                            alt='founder of the teachers club'
                         />
                     </Col>
                     <Col>
