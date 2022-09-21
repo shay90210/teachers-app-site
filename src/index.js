@@ -7,6 +7,8 @@ import 'typeface-cabin';
 import 'typeface-open-sans';
 import 'typeface-crafty-girls';
 import 'typeface-indie-flower';
+import 'font-awesome/css/font-awesome.css';
+import '@fortawesome/free-brands-svg-icons';
 import 'bootstrap-social/bootstrap-social.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
