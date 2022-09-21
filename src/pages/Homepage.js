@@ -26,21 +26,19 @@ const HomePage = () => {
                             />
                         </Col>
             
-                        <Col>
+                        <Col className='image-two'>
                             <img 
                                 src={TeacherWithBag}
                                 width='400px'
                                 alt='teacher holding an exclusive handbag'
-                                className='image-two'
                         />
                         </Col>
 
-                        <Col>
+                        <Col className='image-three'>
                             <img 
                                 src={IAmSweatshirt}
                                 width='400px'
                                 alt='woman with afro wearing "I am..." sweatshirt'
-                                className='image-three'
                         />
                         </Col>
                     </Row>
