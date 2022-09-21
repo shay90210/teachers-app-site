@@ -11,7 +11,7 @@ const AboutPage = () => {
         <div>
             <NavigationBar />
             <Header />
-            <Container>
+            <Container className='mt-5'>
                 <Row>
                     <Col className='about-teachers'>
                         <h3>Celebrate your teachers!</h3>
@@ -30,20 +30,21 @@ const AboutPage = () => {
                     <Col className='about-image'>
                         <img 
                             src={WriteBelieveShirt}
-                            width='200px'
+                            width='500px'
                             alt='woman wearing write until you belive shirt' 
                         />
                     </Col>
                 </Row>
-                <Row>
+                <Row className='mb-5 mt-5'>
                     <AboutAccordion />
                 </Row>
                 <Row>
                     <Col className='founder-image'>
                         <img 
                             src={TeacherFounder}
-                            width='200px'
+                            width='500px'
                             alt='founder of the teachers club'
+                            className='mb-5'
                         />
                     </Col>
                     <Col className='about-founder'>

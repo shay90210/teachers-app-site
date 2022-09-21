@@ -114,7 +114,13 @@ $--bolder: 900;
 // COMPONENT MEDIA QUERIES --------------------------------------- 
 
 // header queries 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 761px) {
+    .main-header h1 {
+        font-size: 55px;
+    }
+}
+
+@media screen and (max-width: 647px) {
     .main-header h1 {
         font-size: $--size-h3;
     }
@@ -132,9 +138,18 @@ $--bolder: 900;
     }
 }
 
+// aboutpage
+.about-teachers p {
+    font-size: $--size-p2;
+}
+
+.about-teachers h3 {
+    font-weight: $--bold;
+}
+
 // PAGES MEDIA QUERIES 
 
-// homepage queries 
+// homepage media queries 
 @media screen and (max-width: 1399px) {
     .image-three {
         display: none;
@@ -151,5 +166,12 @@ $--bolder: 900;
     .image-one {
         display: block;
         margin: auto;
+    }
+}
+
+// aboutpage media queries
+@media screen and (max-width: 767px) {
+    .about-teachers h3 {
+        text-align: center;
     }
 }
