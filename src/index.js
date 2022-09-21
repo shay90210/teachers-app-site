@@ -1,15 +1,18 @@
 import React from 'react';
-import 'bootstrap-social/bootstrap-social.css';
 import { BrowserRouter } from 'react-router-dom';
-import ReactDOM from 'react-dom/client';
+import { createRoot } from 'react-dom/client';
 import './App.scss';
 import App from './App';
 import 'typeface-cabin';
 import 'typeface-open-sans';
 import 'typeface-crafty-girls';
 import 'typeface-indie-flower';
+import 'bootstrap-social/bootstrap-social.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const container = document.getElementById('root');
+const root = createRoot(container);
+
 root.render(
   <React.StrictMode>
       <BrowserRouter>

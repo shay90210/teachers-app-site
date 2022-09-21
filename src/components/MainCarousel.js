@@ -1,11 +1,13 @@
 import Carousel from 'react-bootstrap/Carousel';
-import GREENBG from '../img/greenbg.jpg';
-import MAUVEBG from '../img/mauvebg.jpg';
-import PURPLEBG from '../img/purplebg.jpg';
+import GREENBG from '../img/backgroundgreensupplies.jpg';
+import MAUVEBG from '../img/pexels-karolina-grabowska-5412289 (3).jpg';
+import PURPLEBG from '../img/purplebackground.jpg';
 
 const MainCarousel = () => {
   return (
-    <Carousel fade className='main-carousel pb-5'>
+    <Carousel 
+      fade 
+      className='main-carousel pb-5'>
       <Carousel.Item>
         <img
           className="d-block"
