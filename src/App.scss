@@ -122,3 +122,25 @@ body {
         font-family: 'cabin';
     }
 }
+
+// PAGES MEDIA QUERIES 
+
+// homepage queries 
+@media screen and (max-width: 1399px) {
+    .image-three {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .image-two {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .image-one {
+        display: block;
+        margin: auto;
+    }
+}

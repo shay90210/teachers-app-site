@@ -22,6 +22,7 @@ const HomePage = () => {
                                 src={GirlWithMug}
                                 width='400px'
                                 alt='girl holding teach with love mug'
+                                className='image-one'
                             />
                         </Col>
             
@@ -30,6 +31,7 @@ const HomePage = () => {
                                 src={TeacherWithBag}
                                 width='400px'
                                 alt='teacher holding an exclusive handbag'
+                                className='image-two'
                         />
                         </Col>
 
@@ -38,6 +40,7 @@ const HomePage = () => {
                                 src={IAmSweatshirt}
                                 width='400px'
                                 alt='woman with afro wearing "I am..." sweatshirt'
+                                className='image-three'
                         />
                         </Col>
                     </Row>
