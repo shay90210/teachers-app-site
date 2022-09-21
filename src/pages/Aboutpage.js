@@ -17,7 +17,7 @@ const AboutPage = () => {
                     className='about-row pt-5 pb-5'
                 >
                     <Col className='about-text'>
-                        <h3>Celebrate your teachers!</h3>
+                        <h3>Celebrate Your Teachers!</h3>
                         <p>
                             As educators, we have the privilege of being in a signature, exemplary club that
                             is only understood by fellow teachers. While navigating the world of education

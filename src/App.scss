@@ -21,6 +21,10 @@ $--bolder: 900;
     box-sizing: border-box;
 }
 
+h3 {
+    font-family: 'cabin';
+}
+
 //COMPONENTS -----------------------------------------------
 
 // navigation bar
@@ -113,7 +117,7 @@ $--bolder: 900;
 // COMPONENT MEDIA QUERIES --------------------------------------- 
 
 // header queries 
-@media screen and (max-width: 761px) {
+@media screen and (max-width: 767px) {
     .main-header h1 {
         font-size: 55px;
     }
@@ -147,7 +151,7 @@ $--bolder: 900;
         }
         p {
             font-size: $--size-p2;
-            padding: 0 30px;
+            padding: 0 70px;
         }
     }
 
@@ -157,6 +161,7 @@ $--bolder: 900;
     padding-top: 25px;
         h3 {
             text-align: center;
+            font-weight: $--bold;
         }
         p{
             font-size: $--size-p2;
@@ -171,6 +176,9 @@ $--bolder: 900;
         }
 }
 
+.about-accordion {
+    padding: 70px 0
+}
 
 // PAGES MEDIA QUERIES 
 
@@ -201,8 +209,26 @@ $--bolder: 900;
     }
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1200px) {
+    .about-text p {
+        padding: 0 200px
+    }
     .about-image {
         display: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .about-text p {
+        padding: 0 50px
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .founder-row {
+        .founder-image {
+            display: block;
+            margin: auto;
+        }
     }
 }
