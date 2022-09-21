@@ -1,10 +1,10 @@
-/* COLOR SCHEMES */
+// COLOR SCHEMES -----------------------------------------
 $--color-primary: radial-gradient(circle at 10% 20%, rgb(186, 190, 245) 0%, rgb(192, 192, 245) 33.1%, rgb(218, 203, 246) 90%);
 $--color-secondary: #900048;
 $--color-drk: #1a2639;
 $--color-light: #eeeeee;
 
-/* FONT-SIZES */
+// FONT-SIZES --------------------------------------------
 $--size-h1: 96px;
 $--size-h2: 40px;
 $--size-h3: 28px;
@@ -12,20 +12,16 @@ $--size-p1: 22px;
 $--size-p2: 18px;
 $--size-p3: 12px;
 
-/* FONT-WEIGHTS */
+// FONT-WEIGHTS ------------------------------------------- 
 $--bold: 600;
 $--bolder: 900;
 
-/* GLOBAL STYLES */
+// GLOBAL STYLES ------------------------------------------ 
 * {
     box-sizing: border-box;
 }
 
-body {
-    font-family: 'open sans';
-}
-
-/* NAVIGATION BAR */
+// NAVIGATION BAR ------------------------------------------ 
 .navbar {
     background: $--color-primary;
 }
@@ -34,7 +30,7 @@ body {
     font-size: $--size-p2;
 }
 
-/* HEADER */
+// HEADER -------------------------------------------------- 
 h1 {
     text-align: center;
     font-family: 'indie flower';
@@ -58,7 +54,7 @@ h2 {
     width: 300px;
 }
 
-/* MAIN CAROUSEL */
+// MAIN CAROUSEL ------------------------------------------ 
 .main-carousel {
     img {
         width: 100%;
@@ -79,7 +75,7 @@ h2 {
     }
 }
 
-/* FOOTER */
+// FOOTER -------------------------------------------------- 
 .site-footer {
     background-color: $--color-primary;
 }

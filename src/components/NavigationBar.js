@@ -1,25 +1,32 @@
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+import { Nav, NavItem } from 'reactstrap';
+import { NavLink } from 'react-router-dom';
 
 const NavigationBar = () => {
+    
   return (
-    <Navbar sticky='top' className='navbar justify-content-center'>
-        <Nav className='mt-3 mb-3 nav' activeKey='/home'>
-            <Nav.Item>
-                <Nav.Link href='/home'>Home</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-                <Nav.Link eventKey='link-1'>About</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-                <Nav.Link eventKey='link-2'>Shop</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-                <Nav.Link eventKey='link-2'>Contact</Nav.Link>
-            </Nav.Item>
-        </Nav>
-    </Navbar>
-    );
-};
+    <Nav className='main-nav pt-3 pb-3 justify-content-center'>
+        <NavItem>
+            <NavLink className='nav-link' to='/'>
+                <i className='fa fa-home' /> HOME
+            </NavLink>
+        </NavItem>
+        <NavItem>
+            <NavLink className='nav-link' to='/about'>
+                <i className='fa fa-user' /> ABOUT
+            </NavLink>
+        </NavItem>
+        <NavItem>
+            <NavLink className='nav-link' to='/podcast'>
+                <i className='fa fa-microphone' /> SHOP
+            </NavLink>
+        </NavItem>
+        <NavItem>
+            <NavLink className='nav-link' to='/contact'>
+                <i className='fa fa-address-card' /> CONTACT
+            </NavLink>
+        </NavItem>
+    </Nav>    
+   )
+}
 
 export default NavigationBar; 
