@@ -5,7 +5,7 @@ $--color-drk: #1a2639;
 $--color-light: #eeeeee;
 
 // FONT-SIZES --------------------------------------------
-$--size-h1: 96px;
+$--size-h1: 72px;
 $--size-h2: 60px;
 $--size-h3: 40px;
 $--size-p1: 22px;
@@ -38,7 +38,7 @@ $--bolder: 900;
     h1 {
         text-align: center;
         font-family: 'crafty girls';
-        font-size: $--size-h2;
+        font-size: $--size-h1;
         font-weight: $--bolder;
         color: $--color-drk;
 }
@@ -59,11 +59,10 @@ $--bolder: 900;
         object-fit: cover;
     }
     p, h3 {
-        color: $--color-drk;
+        color: $--color-light;
     }
     h3 {
-        margin-bottom: 150px;
-        font-size: $--size-h3;
+        font-size: 24px;
 
     }
     p {
@@ -76,3 +75,20 @@ $--bolder: 900;
 .site-footer {
     background-color: $--color-primary;
 }
+
+// MEDIA QUERIES 
+
+// header queries 
+@media screen and (max-width: 700px) {
+    .main-header h1 {
+        font-size: $--size-h3;
+    }
+}
+
+// carousel queries
+@media screen and (min-width: 550px) {
+    .main-carousel h3 {
+        font-size: $--size-h3;
+    }
+}
+
