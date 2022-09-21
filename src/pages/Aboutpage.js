@@ -13,7 +13,7 @@ const AboutPage = () => {
             <Header />
             <Container>
                 <Row>
-                    <Col>
+                    <Col className='about-teachers'>
                         <h3>Celebrate your teachers!</h3>
                         <p>
                             As educators, we have the privilege of being in a signature, exemplary club that
@@ -27,7 +27,7 @@ const AboutPage = () => {
                             Teachers' Club that you feel proud to wear out loud.
                         </p>                    
                     </Col>
-                    <Col>
+                    <Col className='about-image'>
                         <img 
                             src={WriteBelieveShirt}
                             width='200px'
@@ -39,14 +39,14 @@ const AboutPage = () => {
                     <AboutAccordion />
                 </Row>
                 <Row>
-                    <Col>
+                    <Col className='founder-image'>
                         <img 
                             src={TeacherFounder}
                             width='200px'
                             alt='founder of the teachers club'
                         />
                     </Col>
-                    <Col>
+                    <Col className='about-founder'>
                         <h3>Jody Reaves</h3>
                         <p>English Educator, Founder</p>
                         <p>For 10 years, Jody has dedicated her life to educating high school students.
