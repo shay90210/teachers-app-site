@@ -25,7 +25,6 @@ const MainCarousel = () => {
           src={MAUVEBG}
           alt="Second slide"
         />
-
         <Carousel.Caption>
           <h3>"I have bought two hoodies and a shirt from this store. Everything is comfortable and perfect for teachers on-the-go."</h3>
           <p>Danielle P., New York</p>
@@ -37,7 +36,6 @@ const MainCarousel = () => {
           src={PURPLEBG}
           alt="Third slide"
         />
-
         <Carousel.Caption>
           <h3>"I really am a bomb educator with a bomb curl pattern."</h3>
           <p>Tiffany R., Wisconsin</p>
