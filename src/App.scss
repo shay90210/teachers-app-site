@@ -21,10 +21,6 @@ $--bolder: 900;
     box-sizing: border-box;
 }
 
-body {
-    font-family: 'cabin';
-}
-
 //COMPONENTS -----------------------------------------------
 
 // navigation bar
@@ -33,7 +29,7 @@ body {
     .nav-link {
         color: $--color-light;
         font-size: $--size-p2;
-        font-family: 'open-sans';
+        font-family: 'cabin';
         font-weight: $--bold;
     }
     .nav-link:hover {
@@ -102,14 +98,16 @@ body {
     a {
         color: $--color-light;
         text-decoration: none;
-        font-family: 'open-sans';
+        font-family: 'cabin';
+        font-size: $--size-p2;
     }
     a:hover {
         color: orange;
     }
     h5 {
-        font-family: 'open-sans';
+        font-family: 'indie flower';
         font-weight: $--bold;
+        font-size: 32px;
     }
 }
 
