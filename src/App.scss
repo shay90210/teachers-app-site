@@ -22,8 +22,11 @@ $--bolder: 900;
 }
 
 // NAVIGATION BAR ------------------------------------------ 
-.navbar {
-    background: $--color-primary;
+.main-nav {
+    background: $--color-drk;
+    .nav-link {
+        color: $--color-light;
+    }
 }
 
 .nav {
