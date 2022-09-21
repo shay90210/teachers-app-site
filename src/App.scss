@@ -6,8 +6,8 @@ $--color-light: #eeeeee;
 
 // FONT-SIZES --------------------------------------------
 $--size-h1: 96px;
-$--size-h2: 40px;
-$--size-h3: 28px;
+$--size-h2: 60px;
+$--size-h3: 40px;
 $--size-p1: 22px;
 $--size-p2: 18px;
 $--size-p3: 12px;
@@ -34,12 +34,14 @@ $--bolder: 900;
 }
 
 // HEADER -------------------------------------------------- 
-h1 {
-    text-align: center;
-    font-family: 'indie flower';
-    font-size: $--size-h1;
-    font-weight: $--bolder;
-    color: $--color-drk;
+.main-header {
+    h1 {
+        text-align: center;
+        font-family: 'crafty girls';
+        font-size: $--size-h2;
+        font-weight: $--bolder;
+        color: $--color-drk;
+}
 }
 
 h2 {
