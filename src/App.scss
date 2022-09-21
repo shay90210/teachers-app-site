@@ -65,16 +65,32 @@ body {
         height: 500px;
         object-fit: cover;
     }
-    p, h3 {
-        color: rgb(146, 98, 9);
-        font-weight: $--bold;
-    }
     h3 {
-        font-size: 24px;
+        font-size: 36px;
 
     }
     p {
         font-size: $--size-p2;
+    }
+}
+.carousel-one {
+        h3, p {
+            color: rgb(8, 87, 8);
+            font-weight: $--bold;
+        }
+    }
+
+.carousel-two {
+    h3, p {
+        color: $--color-secondary;
+        font-weight: $--bold;
+    }
+}
+
+.carousel-three {
+    h3, p {
+        color: rgb(71, 6, 71);
+        font-weight: bold;
     }
 }
 
@@ -102,13 +118,6 @@ body {
 // header queries 
 @media screen and (max-width: 700px) {
     .main-header h1 {
-        font-size: $--size-h3;
-    }
-}
-
-// carousel queries
-@media screen and (min-width: 550px) {
-    .main-carousel h3 {
         font-size: $--size-h3;
     }
 }

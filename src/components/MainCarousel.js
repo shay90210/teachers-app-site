@@ -8,7 +8,7 @@ const MainCarousel = () => {
     <Carousel 
       fade 
       className='main-carousel pb-5'>
-      <Carousel.Item>
+      <Carousel.Item className='carousel-one'>
         <img
           className="d-block"
           src={GREENBG}
@@ -19,7 +19,7 @@ const MainCarousel = () => {
           <p>Jamie D., Wisconsin</p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item className='carousel-two'>
         <img
           className="d-block"
           src={MAUVEBG}
@@ -30,7 +30,7 @@ const MainCarousel = () => {
           <p>Danielle P., New York</p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item className='carousel-three'>
         <img
           className="d-block"
           src={PURPLEBG}
