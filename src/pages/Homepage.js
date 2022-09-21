@@ -16,7 +16,7 @@ const HomePage = () => {
                     <Row>
                         <h2>The safe space to wear your thoughts out loud!</h2>
                     </Row>
-                    <Row>
+                    <Row className='home-images'>
                         <Col>
                             <img 
                                 src={GirlWithMug}

@@ -169,6 +169,14 @@ $--bolder: 900;
     }
 }
 
+@media screen and (max-width: 990px) {
+    .home-images {
+        background-color: rgb(143, 182, 143);
+        background-size: cover;
+        max-width: 100%;
+    }
+}
+
 // aboutpage media queries
 @media screen and (max-width: 767px) {
     .about-teachers h3 {
