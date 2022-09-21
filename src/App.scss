@@ -39,7 +39,6 @@ $--bolder: 900;
         text-align: center;
         font-family: 'crafty girls';
         font-size: $--size-h1;
-        font-weight: $--bolder;
         color: $--color-drk;
 }
 }
@@ -59,14 +58,14 @@ $--bolder: 900;
         object-fit: cover;
     }
     p, h3 {
-        color: $--color-light;
+        color: rgb(146, 98, 9);
+        font-weight: $--bold;
     }
     h3 {
         font-size: 24px;
 
     }
     p {
-        font-weight: $--bold;
         font-size: $--size-p2;
     }
 }
