@@ -21,7 +21,9 @@ $--bolder: 900;
     box-sizing: border-box;
 }
 
-// NAVIGATION BAR ------------------------------------------ 
+//COMPONENTS -----------------------------------------------
+
+// navigation bar
 .main-nav {
     background: $--color-drk;
     .nav-link {
@@ -33,7 +35,7 @@ $--bolder: 900;
         }
 }
 
-// HEADER -------------------------------------------------- 
+// header
 .main-header {
     h1 {
         text-align: center;
@@ -50,7 +52,7 @@ $--bolder: 900;
     width: 300px;
 }
 
-// MAIN CAROUSEL ------------------------------------------ 
+// main carousel
 .main-carousel {
     img {
         width: 100%;
@@ -70,7 +72,7 @@ $--bolder: 900;
     }
 }
 
-// FOOTER -------------------------------------------------- 
+// footer
 .site-footer {
     background-color: $--color-drk;
     color: $--color-light;
@@ -83,7 +85,7 @@ $--bolder: 900;
     }
 }
 
-// MEDIA QUERIES 
+// COMPONENT MEDIA QUERIES --------------------------------------- 
 
 // header queries 
 @media screen and (max-width: 700px) {
@@ -98,4 +100,8 @@ $--bolder: 900;
         font-size: $--size-h3;
     }
 }
+
+// PAGES ---------------------------------------------------------
+
+// homepage
 
