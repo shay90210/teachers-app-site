@@ -26,11 +26,11 @@ $--bolder: 900;
     background: $--color-drk;
     .nav-link {
         color: $--color-light;
+        font-size: $--size-p2;
     }
-}
-
-.nav {
-    font-size: $--size-p2;
+    .nav-link:hover {
+        color: orange;
+        }
 }
 
 // HEADER -------------------------------------------------- 

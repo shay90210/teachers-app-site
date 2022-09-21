@@ -6,24 +6,16 @@ const NavigationBar = () => {
   return (
     <Nav className='main-nav pt-3 pb-3 justify-content-center'>
         <NavItem>
-            <NavLink className='nav-link' to='/'>
-                <i className='fa fa-home' /> HOME
-            </NavLink>
+            <NavLink className='nav-link' to='/'> HOME</NavLink>
         </NavItem>
         <NavItem>
-            <NavLink className='nav-link' to='/about'>
-                <i className='fa fa-user' /> ABOUT
-            </NavLink>
+            <NavLink className='nav-link' to='/about'> ABOUT</NavLink>
         </NavItem>
         <NavItem>
-            <NavLink className='nav-link' to='/podcast'>
-                <i className='fa fa-microphone' /> SHOP
-            </NavLink>
+            <NavLink className='nav-link' to='/podcast'> SHOP</NavLink>
         </NavItem>
         <NavItem>
-            <NavLink className='nav-link' to='/contact'>
-                <i className='fa fa-address-card' /> CONTACT
-            </NavLink>
+            <NavLink className='nav-link' to='/contact'> CONTACT</NavLink>
         </NavItem>
     </Nav>    
    )
