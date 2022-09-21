@@ -21,6 +21,10 @@ $--bolder: 900;
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'cabin';
+}
+
 //COMPONENTS -----------------------------------------------
 
 // navigation bar
@@ -29,6 +33,7 @@ $--bolder: 900;
     .nav-link {
         color: $--color-light;
         font-size: $--size-p2;
+        font-family: 'open-sans';
     }
     .nav-link:hover {
         color: orange;
@@ -76,12 +81,17 @@ $--bolder: 900;
 .site-footer {
     background-color: $--color-drk;
     color: $--color-light;
+    padding-top: 20px;
     a {
         color: $--color-light;
         text-decoration: none;
+        font-family: 'open-sans';
     }
     a:hover {
         color: orange;
+    }
+    h5 {
+        font-family: 'open-sans';
     }
 }
 
@@ -104,4 +114,11 @@ $--bolder: 900;
 // PAGES ---------------------------------------------------------
 
 // homepage
-
+.image-collage {
+    h2 {
+        font-size: $--size-p1;
+        text-align: center;
+        margin-bottom: 45px;
+        font-family: 'cabin';
+    }
+}

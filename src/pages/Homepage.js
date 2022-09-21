@@ -14,6 +14,9 @@ const HomePage = () => {
             <Header />
                 <Container className='mt-5 mb-5 image-collage'>
                     <Row>
+                        <h2>The safe space to wear your thoughts out loud!</h2>
+                    </Row>
+                    <Row>
                         <Col>
                             <img 
                                 src={GirlWithMug}
