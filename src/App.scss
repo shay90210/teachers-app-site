@@ -26,15 +26,15 @@ $--bolder: 900;
 // navigation bar
 .main-nav {
     background: $--color-drk;
-    .nav-link {
-        color: $--color-light;
-        font-size: $--size-p2;
-        font-family: 'cabin';
-        font-weight: $--bold;
-    }
-    .nav-link:hover {
-        color: orange;
+        .nav-link {
+            color: $--color-light;
+            font-size: $--size-p2;
+            font-family: 'cabin';
+            font-weight: $--bold;
         }
+        .nav-link:hover {
+            color: orange;
+            }
 }
 
 // header
@@ -44,14 +44,13 @@ $--bolder: 900;
         font-family: 'crafty girls';
         font-size: $--size-h1;
         color: $--color-drk;
-}
-}
-
-.main-logo {
-    border-radius: 50%;
-    display: block;
-    margin: auto;
-    width: 300px;
+        }
+    .main-logo {
+        border-radius: 50%;
+        display: block;
+        margin: auto;
+        width: 300px;
+    }
 }
 
 // main carousel
@@ -70,9 +69,9 @@ $--bolder: 900;
     }
 }
 .carousel-one {
-        h3, p {
-            color: rgb(8, 87, 8);
-            font-weight: $--bold;
+    h3, p {
+        color: rgb(8, 87, 8);
+        font-weight: $--bold;
         }
     }
 
@@ -95,19 +94,19 @@ $--bolder: 900;
     background-color: $--color-drk;
     color: $--color-light;
     padding-top: 20px;
-    a {
-        color: $--color-light;
-        text-decoration: none;
-        font-family: 'cabin';
-        font-size: $--size-p2;
-    }
-    a:hover {
-        color: orange;
-    }
-    h5 {
-        font-family: 'indie flower';
-        font-weight: $--bold;
-        font-size: 32px;
+        a {
+            color: $--color-light;
+            text-decoration: none;
+            font-family: 'cabin';
+            font-size: $--size-p2;
+        }
+        a:hover {
+            color: orange;
+        }
+        h5 {
+            font-family: 'indie flower';
+            font-weight: $--bold;
+            font-size: 32px;
     }
 }
 
@@ -139,13 +138,39 @@ $--bolder: 900;
 }
 
 // aboutpage
-.about-teachers p {
-    font-size: $--size-p2;
+.about-text {
+    padding-top: 10px;
+        h3 {
+            font-weight: $--bold;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: $--size-p2;
+            padding: 0 30px;
+        }
+    }
+
+
+.founder-text {
+    margin-right: 95px;
+    padding-top: 25px;
+        h3 {
+            text-align: center;
+        }
+        p{
+            font-size: $--size-p2;
+            padding: 0 30px;
+        }
 }
 
-.about-teachers h3 {
-    font-weight: $--bold;
+.founder-row {
+    margin: 60px 0;
+        .founder-image {
+            margin-left: 95px;
+        }
 }
+
 
 // PAGES MEDIA QUERIES 
 
@@ -181,5 +206,11 @@ $--bolder: 900;
 @media screen and (max-width: 767px) {
     .about-teachers h3 {
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .about-image {
+        display: none;
     }
 }

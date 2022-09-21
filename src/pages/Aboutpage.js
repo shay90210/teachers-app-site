@@ -12,8 +12,11 @@ const AboutPage = () => {
             <NavigationBar />
             <Header />
             <Container className='mt-5'>
-                <Row>
-                    <Col className='about-teachers'>
+                <Row 
+                    style={{ background: '#ffe9e3' }}
+                    className='about-row pt-5 pb-5'
+                >
+                    <Col className='about-text'>
                         <h3>Celebrate your teachers!</h3>
                         <p>
                             As educators, we have the privilege of being in a signature, exemplary club that
@@ -35,21 +38,26 @@ const AboutPage = () => {
                         />
                     </Col>
                 </Row>
-                <Row className='mb-5 mt-5'>
+                <Row 
+                    className='accord-row mb-5 mt-5'
+                >
                     <AboutAccordion />
                 </Row>
-                <Row>
+                <Row
+                    style={{ background: '#c4c1e0' }}
+                    className='founder-row pt-5 pb-5'
+                >
                     <Col className='founder-image'>
                         <img 
                             src={TeacherFounder}
-                            width='500px'
+                            width='400px'
                             alt='founder of the teachers club'
                             className='mb-5'
                         />
                     </Col>
-                    <Col className='about-founder'>
+                    <Col className='founder-text'>
                         <h3>Jody Reaves</h3>
-                        <p>English Educator, Founder</p>
+                        <p style={{ textAlign: 'center' }}>English Educator, <i>Founder</i></p>
                         <p>For 10 years, Jody has dedicated her life to educating high school students.
                             Her alma mater University of Wisconsin-Whitewater provided the necessary tools
                             for Jody to succeed at her first school - Washington High School in Milwaukee,
