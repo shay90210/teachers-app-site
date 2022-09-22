@@ -23,7 +23,7 @@ const HomePage = () => {
                                 width='400px'
                                 alt='girl holding teach with love mug'
                                 className='image-one'
-                            />
+                        />
                         </Col>
             
                         <Col className='image-two'>
