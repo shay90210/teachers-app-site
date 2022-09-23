@@ -56,7 +56,7 @@ const Footer = () => {
                                         alt='Credit Card Logos'
                                         title='Credit Card Logos'
                                         src='https://www.shift4shop.com/images/credit-card-logos/cc-sm-5.png' 
-                                        width='249' 
+                                        width='200' 
                                         height='28' 
                                         border='0' 
                                     />
