@@ -1,6 +1,6 @@
-import { Formik } from "formik";
 import { Button, Label, Col, FormGroup } from 'reactstrap';
 import { Formik, Field, Form, ErrorMessage } from 'formik';
+import { validateContactForm } from '../utils/validateContactForm'; 
 
 const ContactForm = () => {
     const handleSubmit = (values, {resetForm}) => {
