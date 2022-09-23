@@ -12,7 +12,7 @@ const NavigationBar = () => {
             <NavLink className='nav-link' to='/about'> ABOUT</NavLink>
         </NavItem>
         <NavItem>
-            <NavLink className='nav-link' to='/podcast'> SHOP</NavLink>
+            <NavLink className='nav-link' to='/shop'> SHOP</NavLink>
         </NavItem>
         <NavItem>
             <NavLink className='nav-link' to='/contact'> CONTACT</NavLink>
