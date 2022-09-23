@@ -2,7 +2,6 @@ import { Container, Row ,Col } from "reactstrap";
 import WriteBelieveShirt from '../img/writeUntilYouBelieve.jpg'
 import TeacherFounder from '../img/jodyProfile.jpg';
 import AboutAccordion from "../components/AboutAccordion";
-import Footer from '../components/Footer';
 
 const AboutPage = () => {
     return (
