@@ -42,6 +42,19 @@ const Footer = () => {
                             </a>
                         </Col>
                     </Row>
+                    <br />
+                    <br />
+                    <hr />
+                    <Row>
+                        <Col>
+                            <p>&copy; 2022, The Teachers' Club Powered by Shopify</p>
+                        </Col>
+                        <Col>
+                            <a href="https://www.shift4shop.com/credit-card-logos.html">
+                                <img alt="Credit Card Logos" title="Credit Card Logos" src="https://www.shift4shop.com/images/credit-card-logos/cc-sm-5.png" width="249" height="28" border="0" />
+                            </a>
+                        </Col>
+                    </Row>
                 </Container>               
             </footer>
         )
