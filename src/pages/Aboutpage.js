@@ -2,15 +2,11 @@ import { Container, Row ,Col } from "reactstrap";
 import WriteBelieveShirt from '../img/writeUntilYouBelieve.jpg'
 import TeacherFounder from '../img/jodyProfile.jpg';
 import AboutAccordion from "../components/AboutAccordion";
-import NavigationBar from "../components/NavigationBar";
-import Header from "../components/Header";
 import Footer from '../components/Footer';
 
 const AboutPage = () => {
     return (
         <div>
-            <NavigationBar />
-            <Header />
             <Container className='mt-5'>
                 <Row 
                     style={{ background: '#ffe9e3' }}
@@ -76,7 +72,6 @@ const AboutPage = () => {
                     </Col>
                 </Row>
             </Container>
-            <Footer />
         </div>
     )
 }
