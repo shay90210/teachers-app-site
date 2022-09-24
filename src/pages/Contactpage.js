@@ -5,9 +5,9 @@ const ContactPage = () => {
     return (
         <div className='contact-info'>
             <Container>
-                <h2 style={{ textAlign: 'center' }}>Contact Us</h2>
+                <h2 className='pt-5 pb-3' style={{ textAlign: 'center' }}>Contact Us</h2>
                 <Row className='row-content'>
-                    <Col md='10'>
+                    <Col>
                         <ContactForm />
                     </Col>
                 </Row>

@@ -193,6 +193,10 @@ h3 {
     }
 }
 
+.form-content {
+    margin-bottom: 50px;
+}
+
 // PAGES MEDIA QUERIES 
 
 // homepage media queries 
@@ -243,5 +247,12 @@ h3 {
             display: block;
             margin: auto;
         }
+    }
+}
+
+// contactpage media queries 
+@media screen and (max-width: 958px) {
+    .contact-info h2 {
+        font-size: $--size-h3;
     }
 }

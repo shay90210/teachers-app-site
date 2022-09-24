@@ -23,18 +23,18 @@ const ContactForm = () => {
             onSubmit={handleSubmit}
             validate={validateContactForm}
         >
-            <Card>
+            <Card className='form-content'>
                 <Form>
                     <CardBody>
-                        <CardTitle>
+                        <CardTitle style={{ textAlign: 'center' }}>
                             <p>Do you have a question, need help with an order, or just want to say hello?
                                 Send Us a Message!
                             </p>
-                            <p>Information is *REQUIRED to submit form.</p>                        
+                            <p>Information is <b>*REQUIRED</b> to submit form.</p>                        
                         </CardTitle>
                         <FormGroup row>
                             <Label htmlFor='firstName' md='2'>
-                                First Name
+                                *First Name
                             </Label>
                             <Col md='10'>
                                 <Field 
@@ -49,7 +49,7 @@ const ContactForm = () => {
                         </FormGroup>
                         <FormGroup row>
                             <Label htmlFor='lastName' md='2'>
-                                Last Name
+                                *Last Name
                             </Label>
                             <Col md='10'>
                                 <Field 
@@ -58,6 +58,22 @@ const ContactForm = () => {
                                     className="form-control"
                                 />
                                 <ErrorMessage name='lastName'>
+                                    {(msg) => <p className='text-danger'>{msg}</p>}
+                                </ErrorMessage>
+                            </Col>
+                        </FormGroup>
+                        <FormGroup row>
+                            <Label htmlFor='email' md='2'>
+                                *Email
+                            </Label>
+                            <Col md='10'>
+                                <Field 
+                                    name='email'
+                                    placeholder='Email'
+                                    type='email'
+                                    className="form-control"
+                                />
+                                <ErrorMessage name='email'>
                                     {(msg) => <p className='text-danger'>{msg}</p>}
                                 </ErrorMessage>
                             </Col>
@@ -73,22 +89,6 @@ const ContactForm = () => {
                                     className="form-control"
                                 />
                                 <ErrorMessage name='phoneNum'>
-                                    {(msg) => <p className='text-danger'>{msg}</p>}
-                                </ErrorMessage>
-                            </Col>
-                        </FormGroup>
-                        <FormGroup row>
-                            <Label htmlFor='email' md='2'>
-                                Email
-                            </Label>
-                            <Col md='10'>
-                                <Field 
-                                    name='email'
-                                    placeholder='Email'
-                                    type='email'
-                                    className="form-control"
-                                />
-                                <ErrorMessage name='email'>
                                     {(msg) => <p className='text-danger'>{msg}</p>}
                                 </ErrorMessage>
                             </Col>
