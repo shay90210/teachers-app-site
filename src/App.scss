@@ -254,8 +254,13 @@ h3 {
 
 // shoppage media queries 
 @media screen and (max-width: 991px) {
-    .shop-nav p {
-        display: none;
+    .shop-nav {
+        P {
+            display: none;
+        }
+        .search {
+            justify-content: center;
+        }
     }
 }
 
