@@ -5,7 +5,7 @@ import AboutAccordion from "../components/AboutAccordion";
 
 const AboutPage = () => {
     return (
-        <div>
+        <div className='about-teachers'>
             <Container className='mt-5'>
                 <Row 
                     style={{ background: '#ffe9e3' }}
@@ -51,6 +51,7 @@ const AboutPage = () => {
                         />
                     </Col>
                     <Col className='founder-text'>
+                        <h3 style={{ textAlign: 'center' }}>About Our Wonderful Teacher Founder!</h3>
                         <h3>Jody Reaves</h3>
                         <p style={{ textAlign: 'center' }}>English Educator, <i>Founder</i></p>
                         <p>For 10 years, Jody has dedicated her life to educating high school students.
