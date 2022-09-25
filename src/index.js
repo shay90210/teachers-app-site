@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import { createRoot } from 'react-dom/client';
-import Context from './context/Context';
 import './App.scss';
 import App from './App';
 import 'typeface-cabin';
@@ -19,9 +18,7 @@ const root = createRoot(container);
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <Context>
-        <App />
-      </Context>
+      <App />
     </BrowserRouter>
   </React.StrictMode>
 );
