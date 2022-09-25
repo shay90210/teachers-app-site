@@ -18,11 +18,11 @@ const root = createRoot(container);
 
 root.render(
   <React.StrictMode>
-    <Context>
-      <BrowserRouter>
+    <BrowserRouter>
+      <Context>
         <App />
-      </BrowserRouter>
-    </Context>
+      </Context>
+    </BrowserRouter>
   </React.StrictMode>
 );
 
