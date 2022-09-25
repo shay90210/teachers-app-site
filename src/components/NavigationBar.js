@@ -1,5 +1,15 @@
-import { Nav, NavItem } from 'reactstrap';
+import { 
+    Nav, 
+    NavItem, 
+    Dropdown, 
+    Badge, 
+    DropdownMenu, 
+    DropdownToggle 
+} 
+from 'reactstrap';
 import { NavLink } from 'react-router-dom';
+import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const NavigationBar = () => {
     
@@ -17,6 +27,26 @@ const NavigationBar = () => {
         <NavItem>
             <NavLink className='nav-link' to='/contact'> CONTACT</NavLink>
         </NavItem>
+        <Dropdown alightRight>
+            <DropdownToggle>
+                <FontAwesomeIcon 
+                    icon={faShoppingCart} 
+                    color='white'
+                    fontSize='25px'
+                />
+                <Badge>{0}</Badge>
+            </DropdownToggle>
+
+            <DropdownMenu
+                style={{ minWidth: 370 }}
+            >
+                <span
+                    style={{ padding:10 }}
+                >
+                    Cart is Empty
+                </span>
+            </DropdownMenu>
+        </Dropdown>
     </Nav>    
    )
 }
