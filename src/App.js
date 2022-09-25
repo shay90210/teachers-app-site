@@ -2,6 +2,7 @@ import { Route, Routes } from 'react-router-dom';
 import HomePage from './pages/Homepage';
 import AboutPage from'./pages/Aboutpage';
 import ShopPage from './pages/Shoppage';
+import CartPage from './pages/Cartpage';
 import ContactPage from './pages/Contactpage';
 import Header from './components/Header';
 import NavigationBar from './components/NavigationBar';
@@ -17,6 +18,7 @@ function App() {
           <Route path='/' element={<HomePage />}/>
           <Route path='about' element={<AboutPage />}/>
           <Route path='shop' element={<ShopPage />}/>
+          <Route path='cart' element={<CartPage />}/>
           <Route path='contact' element={<ContactPage />}/>
         </Routes>
       <Footer />
