@@ -8,7 +8,7 @@ import
 
 const ShopPage = () => {
     return (
-        <div>
+        <div className='shop-nav'>
             <Navbar
                 bg='dark' 
                 variant='dark' 

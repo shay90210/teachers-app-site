@@ -252,6 +252,13 @@ h3 {
     }
 }
 
+// shoppage media queries 
+@media screen and (max-width: 991px) {
+    .shop-nav p {
+        display: none;
+    }
+}
+
 // contactpage media queries 
 @media screen and (max-width: 958px) {
     .contact-info h2 {
