@@ -4,14 +4,20 @@ import {
     Dropdown, 
     Badge, 
     DropdownMenu, 
-    DropdownToggle 
-} 
+    DropdownToggle,
+    DropdownItem
+}
 from 'reactstrap';
+import PropTypes from 'prop-types';
 import { NavLink } from 'react-router-dom';
 import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useState } from 'react';
 
-const NavigationBar = () => {
+const NavigationBar = ({ direction, ...args }) => {
+    const [dropdownOpen, setDropdownOpen] = useState(false);
+
+    const toggle = () => setDropdownOpen((prevState) => !prevState);
     
   return (
     <Nav className='main-nav pt-3 pb-3 justify-content-center'>
@@ -27,28 +33,33 @@ const NavigationBar = () => {
         <NavItem>
             <NavLink className='nav-link' to='/contact'> CONTACT</NavLink>
         </NavItem>
-        <Dropdown alightRight>
-            <DropdownToggle>
-                <FontAwesomeIcon 
-                    icon={faShoppingCart} 
-                    color='white'
-                    fontSize='25px'
-                />
-                <Badge>{0}</Badge>
-            </DropdownToggle>
-
-            <DropdownMenu
-                style={{ minWidth: 370 }}
+            <Dropdown
+                isOpen={dropdownOpen}
+                toggle={toggle}
+                direction={direction}
             >
-                <span
-                    style={{ padding:10 }}
-                >
-                    Cart is Empty
-                </span>
-            </DropdownMenu>
-        </Dropdown>
+                <DropdownToggle>
+                    <FontAwesomeIcon 
+                        icon={faShoppingCart} 
+                        color='white'
+                        fontSize='25px'
+                    />
+                    <Badge>{0}</Badge>
+                </DropdownToggle>
+
+                <DropdownMenu {...args}>
+                    <DropdownItem>
+                        <span>Cart is Empty</span>
+                    </DropdownItem>
+                </DropdownMenu>
+            </Dropdown>
     </Nav>    
    )
 }
+
+NavigationBar.propTypes = {
+    direction: PropTypes.string,
+}
+
 
 export default NavigationBar; 
