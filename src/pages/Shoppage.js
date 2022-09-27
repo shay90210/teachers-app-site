@@ -1,45 +1,30 @@
 import 
     { 
-    Navbar, 
-    Container, 
-    FormControl, 
+    Container,
 } 
     from "react-bootstrap";
 
 const ShopPage = () => {
     return (
         <div className='shop-nav'>
-            <Navbar
-                bg='dark' 
-                variant='dark' 
-                style={{ 
-                    height: 80, 
-                    marginBottom: '20px',
-                    paddingTop: '15px',
-                    marginTop: '100px'
+            <Container
+                style={{
+                    background: 'black',
+                    color: 'white',
+                    marginTop: '80px'
                 }}
             >
-                <Container>
-                    <Navbar.Brand>
-                        <p
-                            style=
-                            {{  
-                                fontSize: '30px',
-                                fontWeight: 'bold',
-                                fontFamily: 'open-sans',
+                <p
+                    style=
+                    {{  
+                        fontSize: '30px',
+                        fontWeight: 'bold',
+                        fontFamily: 'open-sans',
+                        textAlign: 'center'
 
-                            }}
-                        > THE TEACHER COLLECTION </p>
-                    </Navbar.Brand>
-                    <Navbar.Text className='search'>
-                        <FormControl 
-                            style={{ width: 500 }}
-                            placeholder='Search a Product'
-                            className='mx-auto'
-                        />
-                    </Navbar.Text>
-                </Container>
-            </Navbar>
+                    }}
+                > THE TEACHER COLLECTION </p>
+            </Container>
         </div>
     )
 }
