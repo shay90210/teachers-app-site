@@ -1,4 +1,4 @@
-export const Data = [
+const Products = [
     {
         id: 0,
         image: 'readsweatshirt.jpg',
@@ -78,3 +78,5 @@ export const Data = [
         price: 22
     },
 ]
+
+module.exports = Products;
