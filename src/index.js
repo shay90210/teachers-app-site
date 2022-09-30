@@ -18,11 +18,15 @@ import '@fortawesome/free-brands-svg-icons';
 import 'bootstrap-social/bootstrap-social.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import productsReducer from './features/products/productsSlice';
+
 const container = document.getElementById('root');
 const root = createRoot(container);
 
 const store = configureStore({
-  reducer: {},
+  reducer: {
+    products: productsReducer,
+  },
 })
 
 root.render(
