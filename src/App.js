@@ -1,4 +1,4 @@
-import { Route, Routes, Redirect } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import HomePage from './pages/Homepage';
 import AboutPage from'./pages/Aboutpage';
 import ShopPage from './pages/Shoppage';
@@ -7,7 +7,6 @@ import ContactPage from './pages/Contactpage';
 import Header from './components/Header';
 import NavigationBar from './components/NavigationBar';
 import Footer from './components/Footer';
-import NotFound from './components/NotFound';
 import './App.scss';
 
 function App() {
@@ -16,13 +15,11 @@ function App() {
       <NavigationBar />
       <Header />
         <Routes>
-          <Route path='/' element={<HomePage />}/>
+          <Route path='/' exact element={<HomePage />}/>
           <Route path='about' element={<AboutPage />}/>
           <Route path='shop' element={<ShopPage />}/>
           <Route path='cart' element={<CartPage />}/>
-          <Route path='not-found' element={<NotFound />}/>
           <Route path='contact' element={<ContactPage />}/>
-          <Redirect to='/not-found' />
         </Routes>
       <Footer />
     </div>
