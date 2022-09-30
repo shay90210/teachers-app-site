@@ -1,4 +1,4 @@
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, Redirect } from 'react-router-dom';
 import HomePage from './pages/Homepage';
 import AboutPage from'./pages/Aboutpage';
 import ShopPage from './pages/Shoppage';
@@ -22,6 +22,7 @@ function App() {
           <Route path='cart' element={<CartPage />}/>
           <Route path='not-found' element={<NotFound />}/>
           <Route path='contact' element={<ContactPage />}/>
+          <Redirect to='/not-found' />
         </Routes>
       <Footer />
     </div>
