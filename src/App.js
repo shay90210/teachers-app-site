@@ -7,6 +7,7 @@ import ContactPage from './pages/Contactpage';
 import Header from './components/Header';
 import NavigationBar from './components/NavigationBar';
 import Footer from './components/Footer';
+import NotFound from './components/NotFound';
 import './App.scss';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path='about' element={<AboutPage />}/>
           <Route path='shop' element={<ShopPage />}/>
           <Route path='cart' element={<CartPage />}/>
+          <Route path='not-found' element={<NotFound />}/>
           <Route path='contact' element={<ContactPage />}/>
         </Routes>
       <Footer />
