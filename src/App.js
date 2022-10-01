@@ -18,7 +18,7 @@ function App() {
           <Route path='/' exact element={<HomePage />}/>
           <Route path='about' element={<AboutPage />}/>
           <Route path='shop' element={<ShopPage />}/>
-          <Route path='cart' element={<CartPage />}/>
+          <Route path='cart' exact element={<CartPage />}/>
           <Route path='contact' element={<ContactPage />}/>
         </Routes>
       <Footer />
