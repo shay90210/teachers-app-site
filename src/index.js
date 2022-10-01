@@ -28,7 +28,7 @@ const store = configureStore({
   reducer:{
     products: productsReducer,
   }
-})
+});
 
 root.render(
   <React.StrictMode>
