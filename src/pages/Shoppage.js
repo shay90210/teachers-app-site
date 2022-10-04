@@ -1,6 +1,6 @@
 import { Container } from "react-bootstrap";
 
-const ShopPage = () => {
+const ShopPage = () => {    
     return (
         <div className='shop-nav'>
             <Container
