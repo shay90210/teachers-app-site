@@ -3,8 +3,6 @@ import App from './App';
 
 import { BrowserRouter } from 'react-router-dom';
 import { createRoot } from 'react-dom/client';
-import { Provider } from 'react-redux';
-import { configureStore } from '@reduxjs/toolkit';
 
 import './App.scss';
 
@@ -19,28 +17,13 @@ import '@fortawesome/free-brands-svg-icons';
 import 'bootstrap-social/bootstrap-social.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import productsReducer from './features/products/productsSlice';
-import { productsApi } from './features/products/productsApi';
-
 const container = document.getElementById('root');
 const root = createRoot(container);
-
-const store = configureStore({
-  reducer:{
-    products: productsReducer,
-    [productsApi.reducerPath]: productsApi.reducer,
-  },
-  middleware: (getDefaultMiddleware) => {
-    return getDefaultMiddleware().concat(productsApi.middleware);
-  }
-});
 
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <Provider store={store}>
         <App />
-      </Provider>
     </BrowserRouter>
   </React.StrictMode>
 );
