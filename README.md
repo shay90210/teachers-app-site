@@ -8,8 +8,11 @@
 
 The following components are included in the project:
 - Navigation Bar
+- Header
 - Carousel
+- Accordion
 - Images 
+- Font Awesome
 - Footer
 - Contact Form created using Formik 
 
