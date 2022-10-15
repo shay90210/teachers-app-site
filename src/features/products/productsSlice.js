@@ -1,5 +1,9 @@
-import { products } from "./products"
+import { PRODUCTS } from "./products"
 
 export const selectAllProducts = () => {
-    return products; 
+    return PRODUCTS; 
 }
+
+export const selectRandomProduct = () => {
+    return PRODUCTS[Math.floor(PRODUCTS.length * Math.random())];
+};
