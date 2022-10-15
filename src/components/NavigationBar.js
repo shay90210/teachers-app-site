@@ -28,7 +28,7 @@ const NavigationBar = ({ direction, ...args }) => {
             <NavLink className='nav-link' to='/about'> ABOUT</NavLink>
         </NavItem>
         <NavItem>
-            <NavLink className='nav-link' to='/shop'> SHOP</NavLink>
+            <NavLink className='nav-link' to='/shop'> SHOP DIRECTORY</NavLink>
         </NavItem>
         <NavItem>
             <NavLink className='nav-link' to='/contact'> CONTACT</NavLink>
