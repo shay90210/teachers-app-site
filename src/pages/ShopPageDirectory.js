@@ -5,7 +5,7 @@ import ProductsList from '../features/products/ProductsList';
 import { selectProductById } from '../features/products/productsSlice';
 
 const ShopDirectoryPage = () => {
-    const [productId, setProductId] = useState(0);
+    const [productId, setProductId] = useState(1);
     const selectedProduct = selectProductById(productId);
 
     return (
