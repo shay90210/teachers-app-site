@@ -1,7 +1,7 @@
 import { Container, Row, Col, Button } from 'reactstrap';
-import ProductDetail from '../features/campsites/ProductDetail';
-import ProductsList from '../features/campsites/ProductsList';
-import { selectRandomProduct } from '../features/campsites/campsitesSlice';
+import ProductDetail from '../features/products/ProductDetail';
+import ProductsList from '../features/products/ProductsList';
+import { selectRandomProduct } from '../features/products/productsSlice';
 
 const ShopDirectoryPage = () => {
     let selectedProduct = selectRandomProduct();

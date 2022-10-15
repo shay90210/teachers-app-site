@@ -1,5 +1,5 @@
 import { Col, Row, } from 'reactstrap';
-import { selectAllProducts } from './campsitesSlice';
+import { selectAllProducts } from './productsSlice';
 import ProductCard from './ProductCard';
 
 const ProductsList = () => {
