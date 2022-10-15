@@ -1,24 +1,18 @@
-import { Container, Row, Col, Button } from 'reactstrap';
+import { useState } from 'react';
+import { Container, Row, Col } from 'reactstrap';
 import ProductDetail from '../features/products/ProductDetail';
 import ProductsList from '../features/products/ProductsList';
-import { selectRandomProduct } from '../features/products/productsSlice';
+import { selectProductById } from '../features/products/productsSlice';
 
 const ShopDirectoryPage = () => {
-    let selectedProduct = selectRandomProduct();
-
-    const toggleProduct = () => {
-        selectedProduct = selectRandomProduct();
-        console.log(selectedProduct);
-    };
+    const [productId, setProductId] = useState(0);
+    const selectedProduct = selectProductById(productId);
 
     return (
         <Container>
-            <Button onClick={() => toggleProduct()}>
-                Select Random Product
-            </Button>
             <Row>
                 <Col sm='5' md='7'>
-                    <ProductsList />
+                    <ProductsList setProductId={setProductId} />
                 </Col>
                 <Col sm='7' md='5'>
                     <ProductDetail product={selectedProduct} />

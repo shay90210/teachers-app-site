@@ -1,8 +1,8 @@
-import { Card, CardImg, CardImgOverlay, CardTitle } from 'reactstrap';
+import { Card, CardImg } from 'reactstrap';
 import { Link } from 'react-router-dom';
 
 const ProductCard = ({ product } ) => {
-    const { id, image, name } = ProductCard; 
+    const { id, image, name } = product; 
     return (
         <Link to={`${id}`}>
             <Card>
@@ -11,9 +11,6 @@ const ProductCard = ({ product } ) => {
                     src={image}
                     alt={name}
                     /> 
-                <CardImgOverlay>
-                    <CardTitle>{name}</CardTitle>
-                </CardImgOverlay> 
             </Card>
         </Link>
     );
