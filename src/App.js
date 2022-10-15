@@ -1,7 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import HomePage from './pages/Homepage';
 import AboutPage from'./pages/Aboutpage';
-import ShopPage from './pages/Shoppage';
+import ShopPageDirectory from './pages/ShopPageDirectory';
 import CartPage from './pages/Cartpage';
 import ContactPage from './pages/Contactpage';
 import Header from './components/Header';
@@ -17,7 +17,7 @@ function App() {
         <Routes>
           <Route path='/' exact element={<HomePage />}/>
           <Route path='about' element={<AboutPage />}/>
-          <Route path='shop' element={<ShopPage />}/>
+          <Route path='shop' element={<ShopPageDirectory />}/>
           <Route path='cart' exact element={<CartPage />}/>
           <Route path='contact' element={<ContactPage />}/>
         </Routes>
