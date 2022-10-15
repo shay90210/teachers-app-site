@@ -16,7 +16,7 @@ The following components are included in the project:
 - Footer
 - Contact Form created using Formik 
 
-The following pages will be routed throughout the website using BrowserRouter, Routes, and Route:
+The following pages will be routed throughout the website using BrowserRouter, Routes, and Route from React Router DOM:
 - Homepage
 - About page
 - Shop page
