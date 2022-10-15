@@ -33,44 +33,42 @@ const AboutPage = () => {
                         />
                     </Col>
                 </Row>
-                <Row 
-                    className='accord-row mb-5 mt-5'
-                >
+                <Row className='accord-row mb-5 mt-5'>
                     <AboutAccordion />
                 </Row>
-                <Row
-                    style={{ background: '#c4c1e0' }}
-                    className='founder-row pt-5 pb-5'
-                >
-                    <Col className='founder-image'>
-                        <img 
-                            src={TeacherFounder}
-                            width='400px'
-                            alt='founder of the teachers club'
-                            className='mb-5'
-                        />
-                    </Col>
-                    <Col className='founder-text'>
-                        <h3 style={{ textAlign: 'center' }}>About Our Wonderful Teacher Founder!</h3>
-                        <h3>Jody Reaves</h3>
-                        <p style={{ textAlign: 'center' }}>English Educator, <i>Founder</i></p>
-                        <p>For 10 years, Jody has dedicated her life to educating high school students.
-                            Her alma mater University of Wisconsin-Whitewater provided the necessary tools
-                            for Jody to succeed at her first school - Washington High School in Milwaukee,
-                            WI.
-                        </p>          
-                        <p>The Teachers' Club started out as a small idea and became something bigger
-                            for Jody. She developed the concept to spread love to teachers after realizing
-                            that teacher shortages came from a lack of motivation, a lack of support, and
-                            much needed love and attention.
-                        </p>          
-                        <p>With her humorous sarcasm and loving nature, she created apparel for teachers
-                            to have fun with their students and to remind teachers their 'why' for choosing
-                            to become an educator.
+                <div style={{ background: '#c4c1e0' }}>
+                    <Row className='founder-row pt-5'>
+                        <Col className='founder-image'>
+                            <img 
+                                src={TeacherFounder}
+                                width='300px'
+                                alt='founder of the teachers club'
+                            />
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col className='founder-text'>
+                            <h3 style={{ textAlign: 'center' }}>About Our Wonderful Teacher Founder!</h3>
+                            <h3>Jody Reaves</h3>
+                            <p style={{ textAlign: 'center' }}>English Educator, <i>Founder</i></p>
+                            <p>For 10 years, Jody has dedicated her life to educating high school students.
+                                Her alma mater University of Wisconsin-Whitewater provided the necessary tools
+                                for Jody to succeed at her first school - Washington High School in Milwaukee,
+                                WI.
+                            </p>          
+                            <p>The Teachers' Club started out as a small idea and became something bigger
+                                for Jody. She developed the concept to spread love to teachers after realizing
+                                that teacher shortages came from a lack of motivation, a lack of support, and
+                                much needed love and attention.
+                            </p>          
+                            <p>With her humorous sarcasm and loving nature, she created apparel for teachers
+                                to have fun with their students and to remind teachers their 'why' for choosing
+                                to become an educator.
 
-                        </p>
-                    </Col>
-                </Row>
+                            </p>
+                        </Col>
+                    </Row>
+                </div>
             </Container>
         </div>
     )

@@ -74,7 +74,7 @@ h3 {
 }
 .carousel-one {
     h3, p {
-        color: rgb(8, 87, 8);
+        color: rgb(6, 44, 6);
         font-weight: $--bold;
         }
     }
@@ -259,16 +259,7 @@ h3 {
     }
 }
 
-@media screen and (max-width: 991px) {
-    .founder-row {
-        .founder-image {
-            display: block;
-            margin: auto;
-            width: 200px;
-            height: 150px;
-        }
-    }
-}
+
 
 // shoppage media queries 
 @media screen and (max-width: 991px) {
