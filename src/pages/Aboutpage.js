@@ -48,9 +48,9 @@ const AboutPage = () => {
                     </Row>
                     <Row>
                         <Col className='founder-text'>
-                            <h3 style={{ textAlign: 'center' }}>About Our Wonderful Teacher Founder!</h3>
+                            <h3>About Our Wonderful Teacher Founder!</h3>
                             <h3>Jody Reaves</h3>
-                            <p style={{ textAlign: 'center' }}>English Educator, <i>Founder</i></p>
+                            <p>English Educator, <i>Founder</i></p>
                             <p>For 10 years, Jody has dedicated her life to educating high school students.
                                 Her alma mater University of Wisconsin-Whitewater provided the necessary tools
                                 for Jody to succeed at her first school - Washington High School in Milwaukee,
