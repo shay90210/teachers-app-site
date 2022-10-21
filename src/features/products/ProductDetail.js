@@ -1,12 +1,15 @@
-import { Card, CardImg, Col } from 'reactstrap';
+import { Card, CardImg, CardBody, CardText, Col } from 'reactstrap';
 
 const ProductDetail = ( {product} ) => {
-    const { image, name } = product;
+    const { image, name, price } = product;
 
     return (
         <Col md='12' className='m-4'>
             <Card>
                 <CardImg top src={image} alt={name} />
+                <CardBody>
+                    <CardText>{price}</CardText>
+                </CardBody>
             </Card>
         </Col>
     );

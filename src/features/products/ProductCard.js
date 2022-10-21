@@ -10,7 +10,7 @@ const ProductCard = ({ product } ) => {
                     width='100%'
                     src={image}
                     alt={name}
-                    /> 
+                /> 
             </Card>
         </Link>
     );
