@@ -2,7 +2,7 @@ import { Col, Row, } from 'reactstrap';
 import { selectAllProducts } from './productsSlice';
 import ProductCard from './ProductCard';
 
-const ProductsList = ({ setProductId }) => {
+const ProductsList = () => {
     const products = selectAllProducts();
 
     return (     
@@ -13,7 +13,6 @@ const ProductsList = ({ setProductId }) => {
                         md="5" 
                         className="m-4" 
                         key={product.id}
-                        onClick={() => setProductId(product.id)} 
                     >
                         <ProductCard product={product} />
                     </Col>
