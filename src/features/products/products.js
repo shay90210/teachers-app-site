@@ -34,7 +34,7 @@ export const PRODUCTS = [
         id: 4,
         image: EspanolImg,
         name: 'Espanol Shirt',
-        price: 14 
+        price: 14
     },
         {
         id: 5,

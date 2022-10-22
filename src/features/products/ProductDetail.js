@@ -6,9 +6,10 @@ const ProductDetail = ( {product} ) => {
     return (
         <Col md='12' className='m-4'>
             <Card>
-                <CardImg top src={image} alt={name} />
+                <CardImg top src={image} alt={name} className='product-image' />
                 <CardBody>
-                    <CardText>{price}</CardText>
+                    <CardText>{name}</CardText>
+                    <CardText>${price}</CardText>
                 </CardBody>
             </Card>
         </Col>
