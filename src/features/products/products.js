@@ -1,7 +1,7 @@
 import ReadShirtImg from '../../img/readsweatshirt.jpg';
 import TeacherMaskImg from '../../img/teachermask.jpg';
 import ReadUntilImg from '../../img/readuntil1.jpg';
-import CellPhonesImg from '../../img/cellphonesaway1.jpg';
+import EspanolImg from '../../img/espanol1.jpg';
 import VirtualTeachingImg from '../../img/virtualteachingmug.jpg';
 import TeacherFlowersImg from '../../img/mug1.jpg';
 import BecauseRedImg from '../../img/ohbeacause1.jpg';
@@ -32,8 +32,8 @@ export const PRODUCTS = [
     },
         {
         id: 4,
-        image: CellPhonesImg,
-        name: 'Cellphones Away T Shirt',
+        image: EspanolImg,
+        name: 'Espanol Shirt',
         price: 14 
     },
         {
