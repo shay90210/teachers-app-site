@@ -6,7 +6,7 @@ const ProductDetail = ( {product} ) => {
     return (
         <Col md='12' className='m-4'>
             <Card>
-                <CardImg top src={image} alt={name} className='product-image' />
+                <CardImg top src={image} alt={name} />
                 <CardBody>
                     <CardText>{name}</CardText>
                     <CardText>${price}</CardText>
