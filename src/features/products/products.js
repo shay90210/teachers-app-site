@@ -1,7 +1,7 @@
 import ReadShirtImg from '../../img/readsweatshirt.jpg';
 import TeacherMaskImg from '../../img/teachermask.jpg';
-import ReadUntilImg from '../../img/readuntil1.jpg';
-import EspanolImg from '../../img/espanol1.jpg';
+import CreateUntilImg from '../../img/createuntilshirt.jpg';
+import TeachLoveHoodieImg from '../../img/teachlovehoodie.jpg';
 import VirtualTeachingImg from '../../img/virtualteachingmug.jpg';
 import TeacherFlowersImg from '../../img/mug1.jpg';
 import BecauseRedImg from '../../img/ohbeacause1.jpg';
@@ -10,6 +10,8 @@ import BecauseGreyImg from '../../img/ohbecause3.jpg';
 import TeacherBaeRedImg from '../../img/teacherbae1.jpg';
 import TeacherBaeWhiteImg from '../../img/teacherbae2.jpg';
 import TeacherBaeOrangeImg from '../../img/teacherbae3.jpg';
+import TeachLoveShirtImg from '../../img/teachloveshirt.jpg';
+import TeacherHandbagImg from '../../img/handbag.jpg';
 
 export const PRODUCTS = [
     {
@@ -26,15 +28,15 @@ export const PRODUCTS = [
     },
         {
         id: 3,
-        image: ReadUntilImg,
-        name: 'Read Until T Shirt',
+        image: CreateUntilImg,
+        name: 'Create Until ... Shirt',
         price: 22
     },
         {
         id: 4,
-        image: EspanolImg,
-        name: 'Espanol Shirt',
-        price: 14
+        image: TeachLoveHoodieImg,
+        name: 'Teach Love Hoodie',
+        price: 40
     },
         {
         id: 5,
@@ -84,4 +86,16 @@ export const PRODUCTS = [
         name: 'Teacher Bae Orange',
         price: 22
     },
+        {
+        id: 13,
+        image: TeachLoveShirtImg,
+        name: 'Teach Love Shirt',
+        price: 25
+    },
+        {
+        id: 14, 
+        image: TeacherHandbagImg,
+        name: 'Teachers Club Handbag',
+        price: 18
+        }
 ]
