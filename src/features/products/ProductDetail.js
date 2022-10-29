@@ -4,10 +4,16 @@ const ProductDetail = ( {product} ) => {
     const { image, name, price } = product;
 
     return (
-        <Col md='12' className='m-4'>
+        <Col md='12' className='product-details m-4'>
             <Card>
-                <CardImg top src={image} alt={name} />
-                <CardBody>
+                <CardImg 
+                    top src={image} 
+                    alt={name} 
+                    className='display-image'
+                />
+                <CardBody
+                    className='display-text'
+                >
                     <CardText>{name}</CardText>
                     <CardText>${price}</CardText>
                 </CardBody>
