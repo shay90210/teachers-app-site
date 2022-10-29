@@ -189,8 +189,18 @@ h3 {
 
 // shop page
 
-.product-image {
-    width: 50px;
+.product-details {
+    .display-image {
+        width: 500px;
+    }
+    .display-name {
+        font-size: 28px;
+        font-weight: bold;
+        font-family: 'cabin';
+    }
+    .display-price {
+        font-size: $--size-p1;
+    }
 }
 
 // contactpage

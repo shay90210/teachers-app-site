@@ -45,7 +45,7 @@ const Footer = () => {
                     <br />
                     <br />
                     <hr />
-                    <Row className='footer-notes pb-5'>
+                    <Row className='footer-notes pb-4'>
                         <Col>
                             <p>&copy; 2022, The Teachers' Club Powered by The Glam Techie</p>
                         </Col>

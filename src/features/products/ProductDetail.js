@@ -11,11 +11,9 @@ const ProductDetail = ( {product} ) => {
                     alt={name} 
                     className='display-image'
                 />
-                <CardBody
-                    className='display-text'
-                >
-                    <CardText>{name}</CardText>
-                    <CardText>${price}</CardText>
+                <CardBody>
+                    <CardText className='display-name'>{name}</CardText>
+                    <CardText className='display-price'>${price}</CardText>
                 </CardBody>
             </Card>
         </Col>
