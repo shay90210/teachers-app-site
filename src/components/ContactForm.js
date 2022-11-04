@@ -30,11 +30,10 @@ const ContactForm = () => {
                             <p>Do you have a question, need help with an order, or just want to say hello?
                                 Send Us a Message!
                             </p>
-                            <p>Information is <b>*REQUIRED</b> to submit form.</p>                        
                         </CardTitle>
                         <FormGroup row>
                             <Label htmlFor='firstName' md='2'>
-                                *First Name
+                                First Name
                             </Label>
                             <Col md='10'>
                                 <Field 
@@ -49,7 +48,7 @@ const ContactForm = () => {
                         </FormGroup>
                         <FormGroup row>
                             <Label htmlFor='lastName' md='2'>
-                                *Last Name
+                                Last Name
                             </Label>
                             <Col md='10'>
                                 <Field 
@@ -64,7 +63,7 @@ const ContactForm = () => {
                         </FormGroup>
                         <FormGroup row>
                             <Label htmlFor='email' md='2'>
-                                *Email
+                                Email
                             </Label>
                             <Col md='10'>
                                 <Field 
