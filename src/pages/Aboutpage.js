@@ -34,10 +34,12 @@ const AboutPage = () => {
                     </Col>
                 </Row>
                 <Row className='accord-row mb-5 mt-5'>
-                    <AboutAccordion />
+                    <Col>
+                        <AboutAccordion />
+                    </Col>
                 </Row>
                 <div style={{ background: '#c4c1e0' }}>
-                    <Row className='founder-row pt-5'>
+                    <Row className='founder-row pt-5 pb-5'>
                         <Col className='founder-image'>
                             <img 
                                 src={TeacherFounder}
@@ -45,8 +47,6 @@ const AboutPage = () => {
                                 alt='founder of the teachers club'
                             />
                         </Col>
-                    </Row>
-                    <Row>
                         <Col className='founder-text'>
                             <h3>About Our Wonderful Teacher Founder!</h3>
                             <h3>Jody Reaves</h3>
