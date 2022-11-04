@@ -13,7 +13,7 @@ const ProductsList = () => {
                     fontWeight: 'bold',
                     fontFamily: 'cabin',
                     marginTop: '100px',
-                    fontSize: '48px'
+                    fontSize: '48px',
                 }}
             >
                 THE TEACHERS' COLLECTION
