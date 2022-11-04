@@ -14,7 +14,7 @@ const ProductDetail = ( {product} ) => {
     return (
         <>
             <Col md='6' className='product-details m-4'>
-                <Card>
+                <Card className='pt-5 pb-3'>
                     <CardImg 
                         top src={image} 
                         alt={name} 
