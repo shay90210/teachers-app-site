@@ -16,7 +16,7 @@ const ProductsList = () => {
                     fontSize: '48px'
                 }}
             >
-                THE TEACHERS COLLECTION
+                THE TEACHERS' COLLECTION
             </h2>  
             <Row className="ms-auto">
                 {products.map((product) => {

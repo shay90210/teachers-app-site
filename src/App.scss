@@ -192,14 +192,27 @@ h3 {
 
 .product-details {
     .display-image {
-        width: 500px;
+        width: 300px;
+        display: block;
+        margin: auto;
     }
     .display-name {
         font-size: 28px;
         font-weight: bold;
         font-family: 'cabin';
+        text-align: center;
     }
     .display-price {
+        font-size: $--size-p1;
+        text-align: center;
+    }
+}
+
+.cart-details {
+    .item-summary {
+        text-align: center;
+        font-weight: bold;
+        font-family: 'cabin';
         font-size: $--size-p1;
     }
 }
