@@ -7,6 +7,7 @@ import {
     CardTitle
     } 
 from 'reactstrap';
+import Counter from '../counter/Counter';
 
 const ProductDetail = ( {product} ) => {
     const { image, name, price } = product;
@@ -23,6 +24,7 @@ const ProductDetail = ( {product} ) => {
                     <CardBody>
                         <CardText className='display-name'>{name}</CardText>
                         <CardText className='display-price'>${price}</CardText>
+                        <Counter />
                     </CardBody>
                 </Card>
             </Col>

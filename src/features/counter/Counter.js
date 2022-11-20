@@ -19,9 +19,9 @@ const Counter = () => {
 
     return (
         <>
-            <button onClick={IncrementCount}><FontAwesomeIcon icon={faPlus} /></button>
-                <span>{count}</span>
             <button onClick={DecrementCount}><FontAwesomeIcon icon={faMinus} /></button>
+                <span> {count} </span>
+            <button onClick={IncrementCount}><FontAwesomeIcon icon={faPlus} /></button>
         </>
     )
 }
