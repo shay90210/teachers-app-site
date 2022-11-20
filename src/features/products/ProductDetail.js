@@ -24,7 +24,9 @@ const ProductDetail = ( {product} ) => {
                     <CardBody>
                         <CardText className='display-name'>{name}</CardText>
                         <CardText className='display-price'>${price}</CardText>
-                        <Counter />
+                            <div className='counter'>
+                               <Counter /> 
+                            </div>
                     </CardBody>
                 </Card>
             </Col>

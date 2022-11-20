@@ -206,6 +206,11 @@ h3 {
         font-size: $--size-p1;
         text-align: center;
     }
+    .counter {
+        margin: auto;
+        display: block;
+        width: fit-content;
+    }
 }
 
 .cart-details {
@@ -216,6 +221,7 @@ h3 {
         font-size: $--size-p1;
     }
 }
+
 
 // contactpage
 .contact-info {
