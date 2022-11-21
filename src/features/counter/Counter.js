@@ -22,7 +22,7 @@ const Counter = () => {
     return (
         <>
             <button className='counter-button' onClick={Decrement}><FontAwesomeIcon icon={faMinus} /></button>
-                <span className='counter-number'> {count} </span>
+                <span className='counter-number'>{count}</span>
             <button className='counter-button' onClick={Increment}><FontAwesomeIcon icon={faPlus} /></button>
                 <br />
                 <br />
