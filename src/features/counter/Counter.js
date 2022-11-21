@@ -5,13 +5,13 @@ import { faPlus, faMinus } from "@fortawesome/free-solid-svg-icons";
 const Counter = () => {
     const [count, setCount] = useState(0);
 
-    const IncrementCount = () => {
+    const Increment = () => {
         return (
             setCount(count + 1)
         )
     }
 
-    const DecrementCount = () => {
+    const Decrement = () => {
         return(
             setCount(count - 1)
         )
@@ -19,9 +19,9 @@ const Counter = () => {
 
     return (
         <>
-            <button onClick={DecrementCount}><FontAwesomeIcon icon={faMinus} /></button>
-                <span> {count} </span>
-            <button onClick={IncrementCount}><FontAwesomeIcon icon={faPlus} /></button>
+            <button className='counter-button' onClick={Decrement}><FontAwesomeIcon icon={faMinus} /></button>
+                <span className='counter-number'> {count} </span>
+            <button className='counter-button' onClick={Increment}><FontAwesomeIcon icon={faPlus} /></button>
         </>
     )
 }

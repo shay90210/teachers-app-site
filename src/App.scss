@@ -211,6 +211,18 @@ h3 {
         display: block;
         width: fit-content;
     }
+    .counter-button {
+        border: none;
+        background-color: none;
+        background-color: white;
+        width: 100px;
+        font-size: $--size-p2;
+        font-weight: $--bold;
+    }
+    .counter-number {
+        font-size: $--size-p2;
+        font-family: 'cabin';
+    }
 }
 
 .cart-details {
