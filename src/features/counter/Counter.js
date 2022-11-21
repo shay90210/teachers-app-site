@@ -10,15 +10,13 @@ const Counter = () => {
             setCount(count + 1)
         )
     }
-
-    const reset = () => {
-        setCount(0)
-    }
-
     const Decrement = () => {
         return(
             setCount(count - 1)
         )
+    }
+    const reset = () => {
+        setCount(0)
     }
 
     return (
