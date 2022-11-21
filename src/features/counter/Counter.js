@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPlus, faMinus } from "@fortawesome/free-solid-svg-icons";
+import { faPlus, faMinus, faTrashRestore } from "@fortawesome/free-solid-svg-icons";
 
 const Counter = () => {
     const [count, setCount] = useState(0);
@@ -9,6 +9,10 @@ const Counter = () => {
         return (
             setCount(count + 1)
         )
+    }
+
+    const reset = () => {
+        setCount(0)
     }
 
     const Decrement = () => {
@@ -22,6 +26,9 @@ const Counter = () => {
             <button className='counter-button' onClick={Decrement}><FontAwesomeIcon icon={faMinus} /></button>
                 <span className='counter-number'> {count} </span>
             <button className='counter-button' onClick={Increment}><FontAwesomeIcon icon={faPlus} /></button>
+            <br />
+            <br />
+            <button className='trash-button' onClick={reset}><FontAwesomeIcon icon={faTrashRestore} /></button>
         </>
     )
 }

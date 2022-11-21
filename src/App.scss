@@ -223,6 +223,13 @@ h3 {
         font-size: $--size-p2;
         font-family: 'cabin';
     }
+    .trash-button {
+        border: none;
+        background-color: none;
+        background-color: white;
+        margin: auto;
+        display: block;
+    }
 }
 
 .cart-details {
