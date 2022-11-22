@@ -2,7 +2,6 @@ import Carousel from 'react-bootstrap/Carousel';
 import NOTEBOOKBG from '../img/notebookandpens.jpg';
 import MAUVEBG from '../img/pexels-karolina-grabowska-5412289 (3).jpg';
 import PURPLEBG from '../img/purplebackground.jpg';
-import CHALKBG from '../img/backtoschool.jpg';
 
 const MainCarousel = () => {
   return (
@@ -41,13 +40,6 @@ const MainCarousel = () => {
           <h3>"I really am a bomb educator with a bomb curl pattern."</h3>
           <p>Tiffany R., Wisconsin</p>
         </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item className='carousel-four'>
-        <img
-          className="d-block"
-          src={CHALKBG}
-          alt="Fourth slide"
-        />
       </Carousel.Item>
     </Carousel>
   );
