@@ -5,9 +5,7 @@ import PURPLEBG from '../img/purplebackground.jpg';
 
 const MainCarousel = () => {
   return (
-    <Carousel 
-      fade 
-      className='main-carousel pb-5'>
+    <Carousel className='main-carousel pb-5'>
       <Carousel.Item className='carousel-one'>
         <img
           className="d-block"
