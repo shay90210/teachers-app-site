@@ -7,6 +7,8 @@ const ProductsList = () => {
 
     return (   
         <>
+            <br />
+            <hr />
             <h2
                 style={{ 
                     textAlign: 'center',
@@ -18,7 +20,7 @@ const ProductsList = () => {
             >
                 THE TEACHERS' COLLECTION
             </h2>  
-            <Row className="ms-auto">
+            <Row className='products-list'>
                 {products.map((product) => {
                     return (
                         <Col 
