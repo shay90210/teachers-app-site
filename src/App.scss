@@ -35,35 +35,35 @@ h3 {
 
 // navigation bar
 .main-nav {
-    background: $--color-drk;
+    background: #114e33;
         .nav-link {
             color: $--color-light;
             font-size: $--size-p2;
             font-family: 'cabin';
             font-weight: $--bold;
         }
-        .nav-link:hover {
-            color: orange;
-            }
 }
 
 // header
 .main-header {
-    h1 {
-        text-align: center;
-        font-family: 'crafty girls';
-        font-size: $--size-h1;
-        color: $--color-light;
-        text-shadow: $--txtlight-shadow;
-        font-weight: $--bolder;
+    background-color: #59a985;
+    padding-top: 5px;
+    padding-bottom: 20px;
+        h1 {
+            text-align: center;
+            font-family: 'crafty girls';
+            font-size: $--size-h1;
+            color: $--color-light;
+            text-shadow: $--txtdrk-shadow;
+            font-weight: $--bolder;
+            }
+        .main-logo {
+            border-radius: 50%;
+            display: block;
+            margin: auto;
+            width: 300px;
+            box-shadow: $--boxdrk-shadow;
         }
-    .main-logo {
-        border-radius: 50%;
-        display: block;
-        margin: auto;
-        width: 300px;
-        box-shadow: $--boxlight-shadow;
-    }
 }
 
 // main carousel
@@ -104,7 +104,7 @@ h3 {
 
 // footer
 .site-footer {
-    background-color: $--color-drk;
+    background-color: #114e33;
     color: $--color-light;
     padding-top: 20px;
         a {
@@ -114,7 +114,7 @@ h3 {
             font-size: $--size-p2;
         }
         a:hover {
-            color: orange;
+            color: rgb(78, 9, 78);
         }
         h5 {
             font-family: 'indie flower';
