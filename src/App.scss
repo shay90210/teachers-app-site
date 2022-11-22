@@ -16,6 +16,12 @@ $--size-p3: 12px;
 $--bold: 600;
 $--bolder: 900;
 
+// SHADOWS ------------------------------------------------
+$--txtdrk-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+$--boxdrk-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+$--boxlight-shadow: 10px 10px 20px rgba(240, 240, 240, 0.2);
+$--txtlight-shadow: 5px 5px 10px rgba(245, 245, 245, 0.4);
+
 // GLOBAL STYLES ------------------------------------------ 
 * {
     box-sizing: border-box;
@@ -47,13 +53,16 @@ h3 {
         text-align: center;
         font-family: 'crafty girls';
         font-size: $--size-h1;
-        color: $--color-drk;
+        color: $--color-light;
+        text-shadow: $--txtlight-shadow;
+        font-weight: $--bolder;
         }
     .main-logo {
         border-radius: 50%;
         display: block;
         margin: auto;
         width: 300px;
+        box-shadow: $--boxlight-shadow;
     }
 }
 
