@@ -1,6 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel';
-import NOTEBOOKBG from '../img/notebookandpens.jpg';
-import MAUVEBG from '../img/pexels-karolina-grabowska-5412289 (3).jpg';
+import GREENBG from '../img/greenbg.jpg';
+import MAUVEBG from '../img/colored-pencils-7303391.png';
 import PURPLEBG from '../img/purplebackground.jpg';
 
 const MainCarousel = () => {
@@ -11,7 +11,7 @@ const MainCarousel = () => {
       <Carousel.Item className='carousel-one'>
         <img
           className="d-block"
-          src={NOTEBOOKBG}
+          src={GREENBG}
           alt="First slide"
         />
         <Carousel.Caption>

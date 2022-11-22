@@ -75,15 +75,16 @@ h3 {
     }
     h3 {
         font-size: 36px;
-
+        margin-bottom: 40px;
     }
     p {
         font-size: $--size-p1;
+        margin-bottom: 100px;
     }
 }
 .carousel-one {
     h3, p {
-        color: rgb(11, 11, 204);
+        color: #114e33;
         font-weight: $--bold;
         }
     }
@@ -142,6 +143,18 @@ h3 {
 @media screen and (max-width: 647px) {
     .main-header h1 {
         font-size: $--size-h3;
+    }
+}
+
+// main carousel queries
+@media screen and (max-width: 767px) {
+    .main-carousel {
+        h3 {
+            font-size: 24px;
+        }
+        p {
+            font-size: $--size-p2;
+        }
     }
 }
 
