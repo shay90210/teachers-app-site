@@ -70,6 +70,8 @@ h3 {
 .main-carousel {
     img {
         width: 100%;
+        height: 400px;
+        object-fit: cover;
     }
     h3 {
         font-size: 36px;
@@ -77,26 +79,26 @@ h3 {
     }
     p {
         font-size: $--size-p1;
-        margin-bottom: 40px;
+        margin-bottom: 120px;
     }
 }
 .carousel-one {
     h3, p {
-        color: #114e33;
+        color: $--color-drk;
         font-weight: $--bold;
         }
     }
 
 .carousel-two {
     h3, p {
-        color: $--color-secondary;
+        color: $--color-drk;
         font-weight: $--bold;
     }
 }
 
 .carousel-three {
     h3, p {
-        color: rgb(71, 6, 71);
+        color: $--color-drk;
         font-weight: bold;
     }
 }

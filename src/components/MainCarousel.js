@@ -1,6 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel';
-import GREENBG from '../img/greenbg.jpg';
-import MAUVEBG from '../img/colored-pencils-7303391.png';
+import PINKBG from '../img/pinkpencil.jpg';
+import YELLOWBG from '../img/yellowbg.jpg';
 import PURPLEBG from '../img/purplebackground.jpg';
 
 const MainCarousel = () => {
@@ -9,7 +9,7 @@ const MainCarousel = () => {
       <Carousel.Item className='carousel-one'>
         <img
           className="d-block"
-          src={GREENBG}
+          src={PINKBG}
           alt="First slide"
         />
         <Carousel.Caption>
@@ -20,7 +20,7 @@ const MainCarousel = () => {
       <Carousel.Item className='carousel-two'>
         <img
           className="d-block"
-          src={MAUVEBG}
+          src={YELLOWBG}
           alt="Second slide"
         />
         <Carousel.Caption>
