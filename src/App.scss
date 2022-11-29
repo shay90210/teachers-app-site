@@ -276,9 +276,10 @@ h3 {
 // PAGES MEDIA QUERIES 
 
 // homepage media queries 
-@media screen and (max-width: 1399px) {
-    .image-three {
-        display: none;
+@media screen and (max-width: 990px) {
+    .image-one {
+        display: block;
+        margin: auto;
     }
 }
 
@@ -288,10 +289,9 @@ h3 {
     }
 }
 
-@media screen and (max-width: 990px) {
-    .image-one {
-        display: block;
-        margin: auto;
+@media screen and (max-width: 1400px) {
+    .image-three {
+        display: none;
     }
 }
 

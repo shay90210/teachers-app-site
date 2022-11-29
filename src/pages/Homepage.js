@@ -1,7 +1,7 @@
 import MainCarousel from '../components/MainCarousel';
 import GirlWithMug from '../img/mug3.jpg';
 import TeacherWithBag from '../img/teacherhandbag.jpg';
-import IAmSweatshirt from '../img/afroteachlovesweatshirt.jpg';
+import BeATeacher from '../img/beateacher.jpg';
 import { Container, Col, Row } from 'reactstrap';
 
 const HomePage = () => {
@@ -18,23 +18,23 @@ const HomePage = () => {
                             width='400px'
                             alt='girl holding teach with love mug'
                             className='image-one'
-                    />
+                        />
                     </Col>
-        
-                    <Col className='image-two'>
+                    <Col>
                         <img 
                             src={TeacherWithBag}
                             width='400px'
                             alt='teacher holding an exclusive handbag'
-                    />
+                            className='image-two'
+                        />
                     </Col>
-
-                    <Col className='image-three'>
+                    <Col>
                         <img 
-                            src={IAmSweatshirt}
+                            src={BeATeacher}
                             width='400px'
-                            alt='woman with afro wearing "I am..." sweatshirt'
-                    />
+                            alt='teacher standing in field wearing a black TC shirt'
+                            className='image-three'
+                        />
                     </Col>
                 </Row>
             </Container>
