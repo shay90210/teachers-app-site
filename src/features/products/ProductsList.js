@@ -1,9 +1,11 @@
+import { useSelector } from 'react-redux';
 import { Col, Row, } from 'reactstrap';
 import { selectAllProducts } from './productsSlice';
 import ProductCard from './ProductCard';
 
 const ProductsList = () => {
-    const products = selectAllProducts();
+    const products = useSelector(selectAllProducts);
+    console.log('products:', products);
 
     return (   
         <>

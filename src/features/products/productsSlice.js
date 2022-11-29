@@ -12,8 +12,8 @@ const productsSlice = createSlice({
 
 export const productsReducer = productsSlice.reducer;
 
-export const selectAllProducts = () => {
-    return PRODUCTS; 
+export const selectAllProducts = (state) => {
+    return state.products.productsArray; 
 };
 
 export const selectProductById = (id) => {
