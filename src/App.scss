@@ -35,9 +35,9 @@ h3 {
 
 // navigation bar
 .main-nav {
-    background: #114e33;
+    background: #fdb44b;
         .nav-link {
-            color: $--color-light;
+            color: $--color-drk;
             font-size: $--size-p2;
             font-family: 'cabin';
             font-weight: $--bold;
@@ -105,11 +105,11 @@ h3 {
 
 // footer
 .site-footer {
-    background-color: #114e33;
-    color: $--color-light;
+    background-color: #fdb44b;
+    color: $--color-drk;
     padding-top: 20px;
         a {
-            color: $--color-light;
+            color: $--color-drk;
             text-decoration: none;
             font-family: 'cabin';
             font-size: $--size-p2;

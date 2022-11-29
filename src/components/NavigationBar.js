@@ -29,7 +29,7 @@ const NavigationBar = ({ direction, ...args }) => {
         sticky='top' 
         expand='md' 
         className='main-nav'
-        dark
+        light
     >
         <Container>
             <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />
