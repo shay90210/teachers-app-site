@@ -55,7 +55,7 @@ const NavigationBar = ({ direction, ...args }) => {
                             <DropdownToggle>
                                 <FontAwesomeIcon 
                                     icon={faShoppingCart} 
-                                    color='white'
+                                    color='black'
                                     fontSize='25px'
                                 />
                                 <Badge>{0}</Badge>
