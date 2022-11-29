@@ -14,7 +14,7 @@ const Counter = () => {
                 className='counter-button' 
                 onClick={() => dispatch(decrement())}
             >
-                <FontAwesomeIcon icon={faMinus} />
+                <FontAwesomeIcon icon={faMinus} color='red' />
             </button>
                 <span className='counter-number'
             >
@@ -24,7 +24,7 @@ const Counter = () => {
                 className='counter-button' 
                 onClick={() => dispatch(increment())}
             >
-                <FontAwesomeIcon icon={faPlus} />
+                <FontAwesomeIcon icon={faPlus} color='green' />
             </button>
         </>
     )

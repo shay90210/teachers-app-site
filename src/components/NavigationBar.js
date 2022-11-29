@@ -2,7 +2,6 @@ import {
     Nav, 
     NavItem, 
     Dropdown, 
-    Badge, 
     DropdownMenu, 
     DropdownToggle,
     DropdownItem,
@@ -58,7 +57,7 @@ const NavigationBar = ({ direction, ...args }) => {
                                     color='black'
                                     fontSize='25px'
                                 />
-                                <Badge color='dark'>{0}</Badge>
+                                <p>{0}</p>
                             </DropdownToggle>
 
                             <DropdownMenu {...args}>
