@@ -4,7 +4,6 @@ import {
     CardBody, 
     CardText, 
     Col, 
-    CardTitle,
     Button,
     Row
 } 
@@ -33,27 +32,9 @@ const ProductDetail = ( {product} ) => {
                         </CardBody>
                     </Card>
                 </Col>
-                <Col className='mt-4'>
-                    <Card>
-                        <CardTitle
-                            style={{
-                                fontSize: '20px',
-                                textAlign: 'center',
-                                fontWeight: 'bold',
-                                marginTop: '10px'
-                            }}
-                        >
-                            Item Summary
-                        </CardTitle>
-                            <hr />
-                        <CardBody>
-
-                        </CardBody>
-                    </Card>
-                </Col>
             </Row>
             <Row>
-                <Col className='mb-4 mt-4'>
+                <Col className='mb-4 mt-3'>
                     <Button
                         size='lg'
                         color='primary'
