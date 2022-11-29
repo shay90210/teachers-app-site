@@ -1,4 +1,12 @@
-import { Card, CardImg, CardBody, CardText, Col, CardTitle } 
+import { 
+    Card, 
+    CardImg, 
+    CardBody, 
+    CardText, 
+    Col, 
+    CardTitle,
+    Button
+} 
 from 'reactstrap';
 import Counter from '../counter/Counter';
 
@@ -41,6 +49,7 @@ const ProductDetail = ( {product} ) => {
                     </CardBody>
                 </Card>
             </Col>
+            <Button>Return to Shop</Button>
         </>
     );
 };
