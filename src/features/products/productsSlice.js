@@ -16,6 +16,7 @@ export const selectAllProducts = (state) => {
     return state.products.productsArray; 
 };
 
-export const selectProductById = (id) => {
-    return PRODUCTS.find((product) => product.id === parseInt(id));
+export const selectProductById = (id) => (state) => {
+    return state.products.productsArray.find(
+        (product) => product.id === parseInt(id));
 };
