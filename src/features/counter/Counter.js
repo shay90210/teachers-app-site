@@ -1,32 +1,31 @@
-import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlus, faMinus } from "@fortawesome/free-solid-svg-icons";
+import { useSelector, useDispatch } from "react-redux";
+
+import { increment, decrement, selectCount } from "./counterSlice";
 
 const Counter = () => {
-    const [count, setCount] = useState(0);
-
-    const Increment = () => {
-        return (
-            setCount(count + 1)
-        )
-    }
-    const Decrement = () => {
-        if (count > 0) {
-            setCount(count - 1)
-        }
-    }
-    const reset = () => {
-        setCount(0)
-    }
+    const count = useSelector(selectCount);
+    const dispatch = useDispatch();
 
     return (
         <>
-            <button className='counter-button' onClick={Decrement}><FontAwesomeIcon icon={faMinus} /></button>
-                <span className='counter-number'>{count}</span>
-            <button className='counter-button' onClick={Increment}><FontAwesomeIcon icon={faPlus} /></button>
-                <br />
-                <br />
-            <button className='trash-button' onClick={reset}>Remove Item</button>
+            <button 
+                className='counter-button' 
+                onClick={() => dispatch(decrement())}
+            >
+                <FontAwesomeIcon icon={faMinus} />
+            </button>
+                <span className='counter-number'
+            >
+                {count}
+            </span>
+            <button 
+                className='counter-button' 
+                onClick={() => dispatch(increment())}
+            >
+                <FontAwesomeIcon icon={faPlus} />
+            </button>
         </>
     )
 }
