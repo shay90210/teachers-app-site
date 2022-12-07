@@ -57,7 +57,7 @@ const NavigationBar = ({ direction, ...args }) => {
                                     color='black'
                                     fontSize='25px'
                                 />
-                                <p>{0}</p>
+                                <span>{0}</span>
                             </DropdownToggle>
 
                             <DropdownMenu {...args}>
